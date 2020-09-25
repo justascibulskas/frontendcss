@@ -1,10 +1,12 @@
 /* selektorius visam failui - dazniausiai naudojamas parametras nuimti settingams parastems narsyklems ir t.t.*/
+
 *{
 	text-align: center;
+	background: 
 }
 /* elemento selektorius*/
 article {
-	color: red;
+	color: #d10202;
 }
 /* id selektorius tik vienas visam dokumentui UNIKALUS be tarpu*/
 #promo{
@@ -25,11 +27,11 @@ article {
 
 /* attribute selektoriai pasirinkti elementa pgal atributo reiksme*/
 a[href="http://www.delfi.lt"]{
-	color :green;
+	color :g#32a852;
 }
 
 a[href="http://www.smm.lt"]{
-	color: red;
+	color: #d10202;
 }
 a[href="http://www.lrytas.lt"]{
 	color: orange;
@@ -44,7 +46,7 @@ a[href$=".docx"] {
 }
 
 a[href$=".xlsx"] {
-  color: green;
+  color: #32a852;
 }
 
 /* PSEUDO KLASE- fiksuoja kazkokia busena  */
@@ -71,12 +73,71 @@ a:hover{
 
 */
 
+*/
+
 /* nurodai kelia link elemento */
 .todo ul li{
-	color: red;
+	color: #d10202;
 }
 
 .todo ul>li>ul>li{
-	color: green;
+	color: #32a852;
 }
 
+/*              ////////////////////////////////////////////////////////////// /*/
+h1{
+	color: #d10202;
+	font-size: 2.2em;
+}
+section article p{
+	font-family: 'Roboto';
+}
+
+section h2, section h1{
+	color:green;
+	font-size: 1.8em;
+	font-family: 'Open-sans', sans-serif; 
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+section article p span{
+	font-weight: bold;
+	color: #32a852;
+	text-decoration: underline;
+	line-height: 2;
+}
+
+section article a{
+	text-decoration:none;
+}
+
+
+/* nurodai opacity teisingai su rgb, kad tekstas butu ant virsaus) */
+section {
+	background-color: rgba(97,107,120,0.6) no-repeat;
+
+
+}
+
+
+
+
+
+
+
+/* background  image uzdedi*/
+body {
+	/*background:#eee url(../img/2.jpg); */
+	background-size: contain;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+th,td {
+	border: 1px solid #000000;
+	text-align: left;
+	padding: 10px;
+}
