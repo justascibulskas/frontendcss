@@ -1,0 +1,82 @@
+/* selektorius visam failui - dazniausiai naudojamas parametras nuimti settingams parastems narsyklems ir t.t.*/
+*{
+	text-align: center;
+}
+/* elemento selektorius*/
+article {
+	color: red;
+}
+/* id selektorius tik vienas visam dokumentui UNIKALUS be tarpu*/
+#promo{
+	color: aqua;
+}
+
+.blue{
+	color: blue;
+}
+
+.center{
+	text-align: center;
+}
+
+.bg-silver{
+	background-color: silver;
+}
+
+/* attribute selektoriai pasirinkti elementa pgal atributo reiksme*/
+a[href="http://www.delfi.lt"]{
+	color :green;
+}
+
+a[href="http://www.smm.lt"]{
+	color: red;
+}
+a[href="http://www.lrytas.lt"]{
+	color: orange;
+}
+a[href="http://www.kitm.lt"]{
+	color:silver;
+}
+
+/* pasirenki atributa ir failo pavadinima nustatai stiliu norima  .docx .xlsx */
+a[href$=".docx"] {
+  color: red;
+}
+
+a[href$=".xlsx"] {
+  color: green;
+}
+
+/* PSEUDO KLASE- fiksuoja kazkokia busena  */
+a:hover{
+	color: silver;
+}
+/* child selektoriai */
+/*
+.todo ul :first-child{
+	color: red;
+}
+
+.todo ul :last-child{
+	color: green;
+}
+
+.todo ul :nth-child(2){
+	color: aqua;
+}
+
+.todo ul :nth-child(2n+2){
+	color: orange;
+}
+
+*/
+
+/* nurodai kelia link elemento */
+.todo ul li{
+	color: red;
+}
+
+.todo ul>li>ul>li{
+	color: green;
+}
+
