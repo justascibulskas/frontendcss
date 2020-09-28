@@ -1,0 +1,56 @@
+/*
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Secular One', sans-serif;
+*/
+/* h1 centruota, turinys didziosiomis raidemis*/
+h1{
+	text-transform: uppercase;
+	text-align: center;
+}
+/* h2 lygiuota i desine*/
+article h2{
+	text-align: right;
+}
+/*pastraipos lygiuojamos i abi puses*/
+article p{
+	text-align: justify;
+}
+/* footer centre*/
+footer h5{
+	text-align: center;
+}
+
+.article1 {
+	font-family: Lobster, sans-serif;
+	background-color: #e6720e;
+}
+
+.article2{
+	font-family: 'Noto Serif', sans-serif;
+	background-color: #fff700;
+}
+
+.article3{
+	font-family: 'Balsamiq Sans',sans-serif;
+	background-color: #ff00fb;
+}
+
+.article4{
+	font-family: 'Secular One', 'sans serif';
+	background-color: #00ffb3;
+}
+
+#article5{
+	font-family: 'sans serif';
+	background-color: #00ff15;
+}
+
+
+
+/* pasizaidimas *//////////
+h2:hover {
+	background-color: red;
+	text-decoration: none;
+}
