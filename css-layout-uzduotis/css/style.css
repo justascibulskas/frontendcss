@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	margin: 0px auto;
+	width: 80%;
+}
+
+img {
+	border: 1px solid #000;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.image{
+	width: 400px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+
+
+.sofa {
+	background-color: orange;
+	margin: 20px auto;
+	width: 100%; 
+	text-align: center;
+}
+
+
+.topic{
+	border-top: 4px double red;
+	border-bottom: 4px double red;
+	margin: 20px auto;
+	width: 100%;
+	text-align: center;
+	background-color: red;
+}
+
+
+section{
+	
+	margin: 0px auto;
+	background-color: blue;
+}
+
+section article{
+	background-color: red;
+	text-align: justify;
+	width: 24%;
+	display: inline-block;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+footer{
+	text-align: center;
+	background-color: aqua;
+	width: 100%;
+	margin: 20px auto;
+
+}
+
+#greytext{
+	color: grey;
+}
+
