@@ -1,5 +1,4 @@
-/*   PENKIOS DEZUTES SU KONTEINERIU
-
+/*
 * {
 	box-sizing: border-box;
 }
@@ -8,36 +7,38 @@
 	width: 80%;
 	background-color: #cacbd3;
 	margin:0 auto;
-	height: 100%;
 }
 
-div{
+div div{
 	width: 200px;
 	height: 200px;
 	text-align: center;
 	margin: 0 auto;
-	line-height: 8;
+	text-transform: uppercase;
+	line-height: 180px;
 }
 
-.container div:nth-child(1){
+div div:nth-child(1){
 	background-color: #800000;
 }
 
-.container div:nth-child(2){
+div div:nth-child(2){
 	background-color: #FFFF00;
 }
 
-.container div:nth-child(3){
+div div:nth-child(3){
 	background-color: #808000;
 }
 
-.container div:nth-child(4){
+div div:nth-child(4){
 	background-color: #F08080;
 }
   
-.container div:nth-child(5){
+div div:nth-child(5){
 	background-color: #27AE60;
 }
+*/
+/*
   ----------------------------------------------------------------
   ORGINALUS KODAS
   ----------------------------------------------------------------
@@ -71,3 +72,49 @@ div{
 */
 
 
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 80%;
+	background-color: #cacbd3;
+	margin:100px auto;
+	height: 500px;
+	position: relative;
+}
+
+div div{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: 0 auto;
+	text-transform: uppercase;
+	line-height: 180px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+
+div div:nth-child(1){
+	background-color: #800000;
+}
+
+div div:nth-child(2){
+	background-color: #FFFF00;
+	z-index: 110;
+}
+
+div div:nth-child(3){
+	background-color: #808000;
+	z-index: 100;
+}
+
+div div:nth-child(4){
+	background-color: #F08080;
+}
+  
+div div:nth-child(5){
+	background-color: #27AE60;
+}

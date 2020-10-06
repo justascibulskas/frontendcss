@@ -1,0 +1,45 @@
+.container {
+	margin : 0 auto;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	background-color: blue;
+}
+
+main{
+	background-color: yellow;
+	flex-grow: 2;
+}
+
+footer{
+	background-color: orange;
+	width: 100%;
+}
+
+aside{
+	background-color: aqua;
+}
+
+.hero {
+	background-color: black;
+}
+
+.extra{
+background-color: aqua;
+}
+
+.images{
+background-color: red;
+}
+
+.posts{
+	background-color: yellow;
+
+}
+
