@@ -6,29 +6,27 @@
 }
 
 .container{
-	margin: 0px auto;
-	width: 80%;
+	margin: 0px auto; /* iscentruoja */
+	width: 80%;  /* is 100 padarys 80% ir tada pagal tai iscentruja*/
 }
 
+
 img {
-	border: 1px solid #000;
-	margin: 0 auto;
-	max-width: 100%;
+	max-width: 100%; /*iterpia paveiksleli pilnu dydziu*/
 }
 
 .image{
 	width: 400px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 
 
 
 .sofa {
-	background-color: orange;
 	margin: 20px auto;
 	width: 100%; 
 	text-align: center;
+	font-size: 2em;
 }
 
 
@@ -38,18 +36,16 @@ img {
 	margin: 20px auto;
 	width: 100%;
 	text-align: center;
-	background-color: red;
+	margin-top: 40px;
 }
 
 
 section{
 	
 	margin: 0px auto;
-	background-color: blue;
 }
 
 section article{
-	background-color: red;
 	text-align: justify;
 	width: 24%;
 	display: inline-block;
@@ -59,9 +55,9 @@ section article{
 
 footer{
 	text-align: center;
-	background-color: aqua;
 	width: 100%;
 	margin: 20px auto;
+	margin-top: 50px;
 
 }
 
@@ -69,3 +65,6 @@ footer{
 	color: grey;
 }
 
+.fa-accusoft {
+	font-size: 0.5em;
+}

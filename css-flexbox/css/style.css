@@ -1,0 +1,73 @@
+/*   PENKIOS DEZUTES SU KONTEINERIU
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 80%;
+	background-color: #cacbd3;
+	margin:0 auto;
+	height: 100%;
+}
+
+div{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 8;
+}
+
+.container div:nth-child(1){
+	background-color: #800000;
+}
+
+.container div:nth-child(2){
+	background-color: #FFFF00;
+}
+
+.container div:nth-child(3){
+	background-color: #808000;
+}
+
+.container div:nth-child(4){
+	background-color: #F08080;
+}
+  
+.container div:nth-child(5){
+	background-color: #27AE60;
+}
+  ----------------------------------------------------------------
+  ORGINALUS KODAS
+  ----------------------------------------------------------------
+
+  <!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>POSITION - FLEX BOX</title>
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<h2>Pirmas</h2>
+			</div>
+			<div>
+				<h2>Antras</h2>
+			</div>
+			<div>
+				<h2>Trecias</h2>
+			</div>
+			<div>
+				<h2>Ketvirtas</h2>
+			</div>
+			<div>
+				<h2>Penktas</h2>
+			</div>
+		</div>
+	</body>
+</html>
+*/
+
+
