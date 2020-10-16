@@ -1,0 +1,41 @@
+@import 'var';
+@import 'components';
+@import 'mixins';
+/*
+nav{
+  @extend.nav;
+  @include round(1000px);
+  li{
+    display:inline-block;
+    a{
+      @extend.nav;
+      &:hover{
+        color: black;
+        @extend.button;
+        font-size: $textSize;
+        text-decoration:$textDecoration;
+      }
+    }
+  }
+}
+*/
+body{
+  background-color: black;
+}
+h1{
+  text-transform:$textCapital;
+  text-align:$textAlign;
+}
+
+h2{
+  @extend.tag;
+}
+
+.gallery{
+@extend.imgControl;
+  img{
+    @include imgSize(20%,20%);
+    border:$borderAll;
+    @include imgMargin(20px);
+  }
+}

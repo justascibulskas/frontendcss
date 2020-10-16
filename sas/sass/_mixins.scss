@@ -1,0 +1,12 @@
+/* @mixin round($radius){
+border-radius: $radius;
+} */
+
+@mixin imgSize($width, $height){
+  width: $width;
+  height: $height;
+}
+
+@mixin imgMargin($margin){
+  margin: $margin;
+}

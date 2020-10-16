@@ -1,0 +1,50 @@
+/* kai reiksmes reikia daugiau nei viena karta sukuri kintamu sarasa*/
+.imgControl, .gallery {
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  width: 80%;
+  padding: 5%;
+  border: 1px solid red; }
+
+.tag, h2 {
+  color: red;
+  text-align: center;
+  font-style: italic;
+  padding: 20px; }
+
+/* @mixin round($radius){
+border-radius: $radius;
+} */
+/*
+nav{
+  @extend.nav;
+  @include round(1000px);
+  li{
+    display:inline-block;
+    a{
+      @extend.nav;
+      &:hover{
+        color: black;
+        @extend.button;
+        font-size: $textSize;
+        text-decoration:$textDecoration;
+      }
+    }
+  }
+}
+*/
+body {
+  background-color: black; }
+
+h1 {
+  text-transform: uppercase;
+  text-align: center; }
+
+.gallery img {
+  width: 20%;
+  height: 20%;
+  border: 1px solid green;
+  margin: 20px; }
+
+/*# sourceMappingURL=style.css.map */
